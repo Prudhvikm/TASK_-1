@@ -1,0 +1,41 @@
+Task 
+1st: Difference between HTTP1.1 and HTTP2.0?
+Ans: 
+	*HTTP, HyperText Transfer Protocol, is a synonym to ‘accessing internet’ for most of us. Came into being in 1991, it has been 		 around for quite A long time. The communication protocol – your aid in reaching World Wide Web – needs no introduction today.
+
+	*While its initial version 1.1 is still the most extensively implemented protocol, it surely has its disadvantages today. 		 That’s what HTTP/2 came into being. This version addresses most of the shortcomings of HTTP v1.1.
+
+	*In this post, we will define HTTP/2, why it was needed, what are its advantages, why could it be disadvantageous, alongside 		 the key differences between HTTP/2 and HTTP/1.1.
+             
+Advantages:
+-------------
+	HTTP/2 supports full multiplexing for requests as well as responses over a single TCP connection. Due to these capabilities, 	lower page load times are achieved by removing needless latency and improving the overall capacity of network alongside its 	availability.
+
+	The HTTP/2’s ability to transmit more data per client-server communication cycle greatly improves web performance. As a 		result, increased user satisfaction, better SEO, greater productivity, growing userbase, and improved sales figures can be 	achieved.
+
+Disadvantages:
+-------------
+	While HTTP/2 mitigated the effects of HOL blocking in its predecessor, TCP-level block still causes problems.
+	
+	For client machines operating on a slow network, data packets drop bit by bit, and the network quality gets degraded to a 		single HTTP/2 connection.
+
+	Due to this, the entire process slows down, thereby blocking a lot of data transfer.
+	
+	The cookie security failure is still not addressed in HTTP/2 like its precursor.
+
+
+2: About objects and its internal representation in Javascript?
+Ans ;
+	*Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+ 
+	*These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)  	 in the sense that while these primitive data-types all store a single value each (depending on their types).
+
+	*Objects are more complex and each object may contain any combination of these primitive data-types as well as reference 	         data-types.
+
+	*An object, is a reference data type. 
+
+	*Variables that are assigned a reference value are given a reference or a pointer to that value.
+
+ 	*That reference or pointer points to the location in memory where the object is stored. 
+ 
+             
